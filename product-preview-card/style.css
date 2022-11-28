@@ -57,7 +57,7 @@ body {
 .product__type {
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
-  font-size: .8125rem;
+  font-size: .75rem;
 
   color: var(--clr-neutral-400);
   letter-spacing: .3125rem;
@@ -101,7 +101,7 @@ body {
 .original-price {
   font-family: var(--ff-base);
   font-weight: var(--fw-regular);
-  font-size: .8125rem;
+  font-size: .75rem;
 
   color: var(--clr-neutral-400);
   text-decoration: line-through;
@@ -178,7 +178,7 @@ body {
   }
 
   .product__prices {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .addtocart {
