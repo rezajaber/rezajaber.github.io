@@ -50,6 +50,8 @@ body {
 
 .product__content {
   padding: var(--content-padding);
+  padding-left: 2rem;
+  padding-top: 1.5rem;
 }
 
 .product__type {
