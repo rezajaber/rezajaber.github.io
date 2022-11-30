@@ -141,7 +141,7 @@ main {
     margin-bottom: 4.125rem;
 }
 
-.website-stats-desktop {
+.website-stats-tablet {
     display: none;
 }
 
@@ -261,3 +261,148 @@ main {
   }
 
 
+
+
+  @media (min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image: linear-gradient(var(--clr-primary-100), var(--clr-accent-300));
+    
+        display: grid;
+        place-content: center; 
+    }
+    
+    .container {
+        max-width: 768px;
+    }
+    
+    .container-header {
+        padding-top: 0.5rem;
+        margin-bottom: 6.1875rem;
+    }
+    
+    
+    .upper {
+       max-width: 768px;
+       margin-bottom: 10.125rem; 
+    }
+
+    .container-upperleft {
+        max-width: 398px;
+    }
+
+    .website-title {
+        font-family: var(--ff-base);
+        font-size: var(--fs-heading-l);
+        font-weight: var(--fw-extrabold);
+        line-height: 3.15rem;
+        margin-bottom: 1.625rem;
+    }
+    
+    .website-info {
+        font-family: var(--ff-base);
+        font-size: var(--fs-body-s);
+        font-weight: var(--fw-medium);
+        color: var(--clr-neutral-600);
+        line-height: 1.625rem;
+        margin-bottom: 1.5rem;
+        
+    }
+    
+    .website-stats-mobile {
+        display: none;
+    }
+    .website-stats-tablet {
+        display: inline-block;
+        position: absolute;
+        top: -4.5rem;
+        right: -18rem;
+    }
+    
+    .courses {
+        display: grid;
+        grid-template-columns: 340px 340px;
+        place-content: center;
+        column-gap: .625rem;
+    }
+
+    .start-course {
+        padding: 3.5rem 1.625rem 10.125rem 2rem;
+    }
+
+
+    
+    .animation,
+    .design,
+    .photography,
+    .crypto,
+    .business {
+        width: 343px;
+        height: 283px;
+        background-color: var(--clr-primary-100);
+        border-radius: .625rem;
+    
+        display: grid;
+        place-content: center;
+    
+        margin-bottom: 2.5rem;
+    }
+    
+    .course-title {
+        font-family: var(--ff-base);
+        font-weight: var(--fw-extrabold);
+        font-size: var(--fs-card-title);
+        line-height: 1.575rem;
+        
+        margin-bottom: 1rem;
+    }
+    
+    .course-info {
+        width: 286px;
+    
+        font-family: var(--ff-base);
+        font-weight: var(--fw-medium);
+        font-size: var(--fs-body-s);
+        line-height: 1.625rem;
+        color: var(--clr-neutral-600);
+        
+        margin-bottom: 1.5rem;
+    }
+    
+    .course-start {
+        font-family: var(--ff-base);
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-body-m);
+        line-height: 1.75rem;
+        color: var(--clr-accent-400);
+        
+        margin-bottom: 2rem;
+    }
+    
+    .animation-svg,
+    .design-svg,
+    .photography-svg,
+    .crypto-svg,
+    .business-svg {
+        position: relative;
+        bottom: 2.25rem;
+    }
+    
+    .business {
+        margin-bottom: 4rem;
+    }
+    
+    .container-footer {
+        height: 120px;
+    
+        background-color: var(--clr-neutral-800);
+        display: grid;
+        grid-template-columns: 1fr 140px;
+        align-items: center;
+        padding: 0rem 2.5rem 0rem 2.5rem;
+    }
+  }
