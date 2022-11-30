@@ -39,6 +39,7 @@
     margin: 0;
     padding: 0;
     
+    transition: .6s;
 }
 
 body {
@@ -267,6 +268,7 @@ main {
     * {
         margin: 0;
         padding: 0;
+        transition: .6s;
     }
     
     body {
