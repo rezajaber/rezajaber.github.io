@@ -140,7 +140,11 @@ body {
   width: 33px;
   height: 33px;
   object-fit: cover;
-  padding-right: 1rem;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: var(--clr-primary-100);
+  border-width: 1px;
+ 
 }
 
 .creation {
@@ -153,6 +157,7 @@ body {
   font-size: 1rem;
   font-weight: var(--fw-regulart);
   color: var(--clr-primary-100);
+  padding-left: .5rem;
 }
 
 .profile-name:hover {
