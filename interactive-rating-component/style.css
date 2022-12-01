@@ -100,7 +100,7 @@ body {
 }
 
 .rating-buttons:active {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .button-submit {
@@ -130,3 +130,60 @@ body {
 .button-submit:active {
   opacity: 0.7;
 }
+
+.thanks-container {
+  width: 327px;
+  height: 360px;
+  background-color: var(--clr-neutral-800);
+  border-radius: .9375rem;
+  background-image: linear-gradient(var(--clr-accent-700), var(--clr-accent-800));
+  padding: var(--content-padding);
+}
+
+.center-ill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.thanks-ill {
+margin-bottom: 1.5rem;
+}
+
+.selection {
+  font-size: .9375rem;
+  line-height: 1.375rem;
+  font-weight: var(--fw-regular);
+  color: var(--clr-primary-400);
+
+  background-color: var(--clr-neutral-800);
+  border-style: none;
+  border-radius: 1.40625rem;
+  padding: .3125rem .75rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou {
+  font-weight: var(--fw-bold);
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.89875rem;
+  margin-bottom: .625rem;
+}
+
+.thankyou-text {
+  font-weight: var(--fw-regular);
+  color: var(--clr-neutral-200);
+  font-size: .875rem;
+  text-align: center;
+  line-height: 1.375rem;
+}
+
