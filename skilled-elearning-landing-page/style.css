@@ -41,15 +41,12 @@
     
     transition: .6s;
 }
-
+    
 body {
     background-image: linear-gradient(var(--clr-primary-100), var(--clr-accent-300));
 
     display: grid;
     place-content: center; 
-}
-
-.container {
     max-width: 375px;
 }
 
@@ -263,7 +260,7 @@ main {
 
 
 
-
+  /*
   @media (min-width: 768px) {
     * {
         margin: 0;
@@ -407,4 +404,4 @@ main {
         align-items: center;
         padding: 0rem 2.5rem 0rem 2.5rem;
     }
-  }
+  } */
