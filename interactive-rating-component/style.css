@@ -1,0 +1,132 @@
+:root {
+  --clr-primary-400: #fb7413;
+
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-200: #959eac;
+  --clr-neutral-300: #7c8798;
+  --clr-neutral-800: #252d37;
+  --clr-neutral-900: #121417;
+
+  --clr-accent-700: #232A34;
+  --clr-accent-750: #262E38;
+  --clr-accent-800: #181E27;
+
+
+  --ff-base: 'Overpass', sans-serif;
+
+  --fs-base: .9375rem;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --content-padding: 1.5rem;
+}
+
+* {
+  font-family: var(--ff-base);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+}
+
+body {
+  background-color: var(--clr-neutral-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: var(--clr-neutral-100);
+}
+
+.container {
+  width: 327px;
+  height: 360px;
+  background-color: var(--clr-neutral-800);
+  border-radius: .9375rem;
+  background-image: linear-gradient(var(--clr-accent-700), var(--clr-accent-800));
+  padding: var(--content-padding);
+}
+
+.star {
+  background-color: var(--clr-accent-750);
+  padding: .833125rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.rating-ask {
+  font-size: 1.5rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.89875rem;
+  margin-bottom: .625rem;
+}
+
+.rating-info {
+  font-size: .875rem;
+  font-weight: var(--fw-regular);
+  line-height: 1.375rem;
+  color: var(--clr-neutral-200);
+  margin-bottom: 1.5rem;
+}
+
+.rating-numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+  font-weight: var(--fw-bold);
+  color: var(--clr-neutral-300);
+  margin-bottom: 1.5rem;
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--clr-neutral-800);
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  transition: 0.28s;
+  cursor: pointer;
+}
+
+.rating-buttons:hover {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+}
+
+.rating-buttons:active {
+  opacity: 0.7;
+}
+
+.button-submit {
+  font-size: 0.875rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.1075rem;
+  letter-spacing: .116875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-style: none;
+  background-color: var(--clr-primary-400);
+  padding: .75rem 6.8125rem .9375rem 6.75rem;
+  border-radius: 1.40625rem;
+  transition: 0.28s;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: var(--clr-neutral-100);
+  color: var(--clr-primary-400);
+  padding: .6875rem 8.625rem .6875rem 8.5625rem
+
+}
+
+.button-submit:active {
+  opacity: 0.7;
+}
