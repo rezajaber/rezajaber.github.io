@@ -38,7 +38,7 @@ body {
  max-width: 327px;
  height: 567px;
 
- background-color: var(--clr-verypaleblue); 
+ background-color: white; 
  border-radius: 1.25rem;
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .container-plans {
-  background-color: #eaecf3;
+  background-color: #F7F9FF;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -224,11 +224,11 @@ body {
      font-size: 1rem;
      font-weight: var(--fw-black);
      line-height: 1.1575rem;
-     margin-bottom: .1875rem;
+     margin-bottom: .375rem;
    }
    
    .price {
-     font-size: .875rem;
+     font-size: 1rem;
      line-height: 1.1575rem;
      color: var(--clr-desaturatedblue);
      font-weight: var(--fw-medium);
@@ -238,7 +238,7 @@ body {
      cursor: pointer;
      font-weight: var(--fw-bold);
      line-height: 1.075rem;
-     font-size: .8125rem;
+     font-size: .875rem;
      color: var(--clr-brightblue);
    }
      
