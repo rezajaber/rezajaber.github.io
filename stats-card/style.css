@@ -1,0 +1,208 @@
+:root {
+    --clr-primary-mainbg: #090b1a;
+    --clr-primary-cardbg: #1b1938;
+    --clr-primary-accent: #aa5cdb;
+
+    --clr-neutral-100: #ffffff;    
+    --clr-neutral-50: #ffffffbf;    
+    --clr-neutral-30: #ffffff99;    
+
+    --ff-primary: 'Inter', sans-serif;
+    --ff-secondary: 'Lexend Deca', sans-serif;
+
+    --fs-base: .9375rem;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    --content-padding: 1.9375rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    transition: .25s;
+}
+
+body {
+    background-color: var(--clr-primary-mainbg);
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1110px) {
+    .container {
+        max-width: 327px;
+        height: 780px;
+        
+        background-color: var(--clr-primary-cardbg);
+        border-radius: .5rem;
+    }
+    
+    .stockphoto-desktop {
+        display: none;
+    }
+    
+    .stockphoto-mobile {
+        width: 100%;
+        border-radius: .5rem .5rem 0rem 0rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .title {
+        color: white;
+    
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-bold);
+        font-size: 1.75rem;
+    
+        line-height: 2rem;
+        padding: 0rem 1.96875rem 0rem 1.96875rem;
+    
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .eye-catcher {
+        color: var(--clr-primary-accent);
+    }
+    
+    .info {
+        color: var(--clr-neutral-50);
+    
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-regular);
+        font-size: .9375rem;
+    
+        padding: 0rem 1.9375rem 0rem 1.9375rem;
+        line-height: 1.5625rem;
+    
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+    
+    .stats {
+        padding: 0rem 1.9375rem 0rem 1.9375rem;
+        text-align: center;
+    }
+    
+    .numbers {
+        color: var(--clr-neutral-100);
+    
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-bold);
+        font-size: 1.5rem;
+    
+        line-height: 1.815625rem;
+        margin-bottom: 0.125rem;
+    }
+    
+    .relations {
+        color: var(--clr-neutral-30);
+    
+        font-family: var(--ff-secondary);
+        font-weight: var(--fw-regular);
+        font-size: .75rem;
+    
+        line-height: 1.5625rem;
+        margin-bottom: 1.5rem;
+    }  
+}
+
+@media (min-width: 1110px) {
+    .container {
+        min-width: 1110px;
+        height: 446px;
+        background-color: var(--clr-primary-cardbg);
+        border-radius: .5rem;
+    
+        display: grid;
+        grid-template-columns: 570px 540px;
+    }
+    
+    .left {
+    width: 500px;
+    }
+    
+    .title {
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-bold);
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+        color: var(--clr-neutral-100);
+        padding-top: 4.4375rem;
+        padding-left: 4.5rem;
+        margin-bottom: 1.5625rem;
+    }
+    
+    .eye-catcher {
+        color: var(--clr-primary-accent);
+    }
+    
+    .info {
+        width: 450px;
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-regular);
+        font-size: .9375rem;
+        line-height: 1.5625rem;
+        color: var(--clr-neutral-50);
+        padding-left: 4.46875rem;
+        margin-bottom: 4.5rem;
+    }
+    
+    .stats {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .first {
+        margin-left: 4.46875rem;
+    }
+    
+    .second {
+    margin-left: 3.9375rem;
+    margin-right: 3.75rem;
+    }
+    
+    .third {
+        margin-right: 9.1875rem;
+    }
+    
+    .numbers {
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-bold);
+        font-size: 1.5rem;
+        line-height: 1.815625rem;
+        color: var(--clr-neutral-100);
+        margin-bottom: .125rem;
+    }
+    
+    .relations {
+        font-family: var(--ff-secondary);
+        font-weight: var(--fw-regular);
+        font-size: .75rem;
+        line-height: 1.5625rem;
+        color: var(--clr-neutral-30);
+        letter-spacing: .0625rem;
+    }
+    
+    .stockphoto-desktop {
+        display: block;
+
+        border-radius: 0rem .5rem .5rem 0rem;
+        width: 540px;
+        height: 446px;
+    }
+    
+    .stockphoto-mobile {
+        display: none;
+    }    
+}
+
+
