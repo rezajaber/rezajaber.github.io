@@ -274,7 +274,7 @@ body {
           display: grid;
           grid-template-columns: 835px 605px;
           place-content: center;
-          margin-bottom: 8rem;
+          margin-bottom: rem;
       }
       
       
