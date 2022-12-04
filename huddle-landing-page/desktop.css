@@ -1,103 +1,335 @@
+/* SHORT STORAGE */
+
+/* MEDIA QUERIES 
+@media (max-width: 800px)  {
+  .background-desktop {
+      display: none;
+  }  
+  
+  .background-mobile {
+      position: absolute;
+      z-index: -1;
+      height: 100%;
+  }
+  
+  .container-header {
+      display: flex;
+      justify-content: start;
+      padding-top: 2.3875rem;
+      padding-left: 2.25rem;
+  }
+  
+  .logo {
+      width: 120px;
+      margin-bottom: 4.3625rem;
+  }
+  
+  .left {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .container-main {
+      display: grid;
+      place-content: center;
+      grid-template-columns: 304px;
+  }
+  
+  .illustration {
+      width: 296px;
+      height: 209px;
+      margin-bottom: 3.75rem;
+  }
+  
+  .title {
+      font-family: var(--ff-heading);
+      font-weight: var(--fw-semibold);
+      font-size: 1.5rem;
+      line-height: 2.25rem;
+      text-align: center;
+      color: white;
+      margin-bottom: 1rem;
+  }
+  
+  .info {
+      font-family: var(--ff-body);
+      font-weight: var(--fw-regular);
+      font-size: 1rem;
+      line-height: 1.5rem;
+      text-align: center;
+      color: white;
+      margin-bottom: 1.5rem;
+  }
+  
+  .center-button {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .register {
+      font-family: var(--ff-heading);
+      font-weight: var(--fw-regular);
+      font-size: .75rem;
+      line-height: 1.125rem;
+      color: var(--clr-primary-violet);
+      margin-bottom: 3rem;
+      cursor: pointer;
+  
+      border-style: none;
+      padding: .705625rem 4.69625rem .669375rem 4.74125rem;
+      border-radius: 1.25rem;
+      background-color: white;
+  }
+  
+  .register:hover {
+      background-color: #e882e8;
+      color: white;
+      }
+  
+  .register:active {
+      opacity: 0.8;
+      color: white;
+      }
+  
+      .container-footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: rem
+      }
+  
+      .facebook-icon,
+      .twitter-icon,
+      .instagram-icon {
+          height: 40px;
+          width: 40px;
+          cursor: pointer;
+      }
+  
+      .facebook-icon:hover,
+      .twitter-icon:hover,
+      .instagram-icon:hover {
+          height: 40px;
+          width: 40px;
+      }
+      }
+    
+@media (min-width: 800px) and (max-width: 1440px)  {
+  .background-desktop {
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+  }  
+  
+  .background-mobile {
+      display: none;
+  }
+  
+  .container-header {
+      display: flex;
+      justify-content: start;
+      padding-top: 2.3875rem;
+      padding-left: 2.25rem;
+  }
+  
+  .logo {
+      width: 120px;
+      margin-bottom: 3.75rem;
+  }
+  
+  .left {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .container-main {
+      display: grid;
+      place-content: center;
+      grid-template-columns: 450px;
+  }
+  
+  .illustration {
+      width: 400px;
+      height: 300px;
+      margin-bottom: 3rem;
+  }
+  
+  .title {
+      font-family: var(--ff-heading);
+      font-weight: var(--fw-semibold);
+      font-size: 2.5rem;
+      line-height: 2.25rem;
+      text-align: center;
+      color: white;
+      margin-bottom: 2rem;
+  }
+  
+  .info {
+      font-family: var(--ff-body);
+      font-weight: var(--fw-regular);
+      font-size: 1rem;
+      line-height: 1.5rem;
+      text-align: center;
+      color: white;
+      margin-bottom: 2rem;
+  }
+  
+  .center-button {
+      display: flex;
+      justify-content: center;
+  }
+  
+  .register {
+      font-family: var(--ff-heading);
+      font-weight: var(--fw-regular);
+      font-size: .1.5rem;
+      line-height: 1.125rem;
+      color: var(--clr-primary-violet);
+      margin-bottom: 2rem;
+      cursor: pointer;
+  
+      border-style: none;
+      padding: 1rem 5rem 1rem 5rem;
+      border-radius: 2rem;
+      background-color: white;
+  }
+  
+  .register:hover {
+      background-color: #e882e8;
+      color: white;
+      }
+  
+  .register:active {
+      opacity: 0.8;
+      color: white;
+      }
+  
+      .container-footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: rem
+      }
+  
+      .facebook-icon,
+      .twitter-icon,
+      .instagram-icon {
+          height: 40px;
+          width: 40px;
+          cursor: pointer;
+      }
+  
+      .facebook-icon:hover,
+      .twitter-icon:hover,
+      .instagram-icon:hover {
+          height: 40px;
+          width: 40px;
+      }
+      }
+    
 @media (min-width: 1440px) {
-    .background-desktop {
-        position: absolute;
-        z-index: -1;
-    }
-    
-    .background-mobile {
-        display: none;
-    }
-    
-    .container-header {
-        display: flex;
-        justify-content: start;
-        align-items: center;
+        .background-desktop {
+            position: absolute;
+            z-index: -1;
+            height: 100%;
+        }
         
-    }
-    
-    .logo {
-        padding-top: 3.3125rem;
-        padding-left: 5rem;
-        margin-bottom: 5.875rem;
-    }
-    
-    .container-main{
-        display: grid;
-        grid-template-columns: 835px 605px;
-    }
-    
-    
-    .illustration {
-        padding-left: 5rem;
-    }
-    
-    .right {
-       padding-top: 3rem;
-    }
-    
-    .title {
-        font-family: var(--ff-heading);
-        font-weight: var(--fw-semibold);
-        font-size: 2.5rem;
-        line-height: 3.75rem;
-        color: #ffffff;
-        width: 487px;
-        margin-bottom: 1.5rem;
-    }
-    
-    .info {
-        font-family: var(--ff-body);
-        font-weight: var(--fw-regular);
-        font-size: 1.125rem;
-        line-height: 1.6875rem;
-        color: #ffffff;
-        width: 520px;
-        margin-bottom: 1.5rem;
-    }
-    
-    .register {
-        font-family: var(--ff-heading);
-        font-weight: var(--fw-regular);
-        font-size: 1.125rem;
-        line-height: 1.6875rem;
-        padding: .8125rem 3.975rem 1rem 4rem;
-        border-radius: 1.75rem;
-        color: var(--clr-primary-violet);
-        background-color: #ffffff;
-        border-style: none;
-        cursor: pointer;
-    }
-    
-    .register:hover {
-        background-color: #e882e8;
-        color: white;
-    }
-    
-    .register:active {
-        opacity: 0.8;
-        color: white;
-    }
-    
-    .container-footer {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        padding-right: 5rem;
-        padding-top: rem
-    }
-    
-    .facebook-icon,
-    .twitter-icon,
-    .instagram-icon {
-        height: 40px;
-        width: 40px;
-        cursor: pointer;
-    }
-    
-    .facebook-icon:hover,
-    .twitter-icon:hover,
-    .instagram-icon:hover {
-        height: 40px;
-        width: 40px;
-    }
-}
+        .background-mobile {
+            display: none;
+        }
+        
+        .container-header {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+        
+        .logo {
+            padding-top: 3.3125rem;
+            padding-left: 5rem;
+            margin-bottom: 5.875rem;
+        }
+        
+        .container-main{
+            display: grid;
+            grid-template-columns: 835px 605px;
+            place-content: center;
+            margin-bottom: 8rem;
+        }
+        
+        
+        .illustration {
+            padding-left: 5rem;
+        }
+        
+        .right {
+           padding-top: 3rem;
+        }
+        
+        .title {
+            font-family: var(--ff-heading);
+            font-weight: var(--fw-semibold);
+            font-size: 2.5rem;
+            line-height: 3.75rem;
+            color: #ffffff;
+            width: 487px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .info {
+            font-family: var(--ff-body);
+            font-weight: var(--fw-regular);
+            font-size: 1.125rem;
+            line-height: 1.6875rem;
+            color: #ffffff;
+            width: 520px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .register {
+            font-family: var(--ff-heading);
+            font-weight: var(--fw-regular);
+            font-size: 1.125rem;
+            line-height: 1.6875rem;
+            padding: .8125rem 3.975rem 1rem 4rem;
+            border-radius: 1.75rem;
+            color: var(--clr-primary-violet);
+            background-color: #ffffff;
+            border-style: none;
+            cursor: pointer;
+        }
+        
+        .register:hover {
+            background-color: #e882e8;
+            color: white;
+        }
+        
+        .register:active {
+            opacity: 0.8;
+            color: white;
+        }
+        
+        .container-footer {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding-right: 5rem;
+            padding-top: rem
+        }
+        
+        .facebook-icon,
+        .twitter-icon,
+        .instagram-icon {
+            height: 40px;
+            width: 40px;
+            cursor: pointer;
+        }
+        
+        .facebook-icon:hover,
+        .twitter-icon:hover,
+        .instagram-icon:hover {
+            height: 40px;
+            width: 40px;
+        }
+      }
+*/
