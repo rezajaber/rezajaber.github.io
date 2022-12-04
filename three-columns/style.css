@@ -24,6 +24,10 @@
   transition: 0.3s;
 }
 
+body {
+  background-color: #F2F2F2;
+}
+
 .container {
   min-height: 100vh;
   display: grid;
