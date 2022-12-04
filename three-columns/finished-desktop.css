@@ -1,0 +1,208 @@
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 307px 307px 307px ;
+    place-content: center;
+  }
+  
+  .left {
+    background-color: var(--clr-primary-orange);
+    width: 307px;
+    height: 500px;
+    border-radius: .5rem 0rem 0rem .5rem;
+  }
+  
+  .car-icon {
+    padding: 3rem 0rem 0rem 3rem;
+    margin-bottom: 2.1875rem;
+  }
+  
+  .car-type {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-bold);
+    font-size: 2.5rem;
+  
+    line-height: 2.9925rem;
+    color: var(--clr-neutral-h);
+    padding-left: 3rem;
+    margin-bottom: 1.5625rem;
+  }
+  
+  .info-sedans {
+    width: 240px;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+  
+    line-height: 1.5625rem;
+    color: var(--clr-neutral-p);
+    padding-left: 2.96875rem;
+    margin-bottom: 5.1875rem;
+  }
+  
+  .more-info-sedans {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+  
+    line-height: 1.5625rem;
+    color: var(--clr-primary-orange);
+    padding: .6875rem 1.96875rem .75rem 1.96875rem;
+  
+    background-color: var(--clr-neutral-h);
+    border-style: none;
+    border-radius: 1.5625rem;
+  
+    cursor: pointer;
+  
+    margin-left: 3rem;
+  }
+  
+  .more-info-sedans:hover {
+    background-color: var(--clr-primary-orange);
+    color: var(--clr-neutral-h);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--clr-neutral-h);
+    padding: .6875rem 1.96875rem .75rem 1.96875rem;
+  }
+  
+  .more-info-sedans:active {
+    opacity: 0.8;
+  }
+  
+  
+  
+  .middle {
+    background-color: var(--clr-primary-cyan);
+    width: 307px;
+    height: 500px;
+    border-radius: 0rem;
+  }
+  
+  .car-icon {
+    padding: 3rem 0rem 0rem 3rem;
+    margin-bottom: 2.1875rem;
+  }
+  
+  .car-type {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-bold);
+    font-size: 2.5rem;
+  
+    line-height: 2.9925rem;
+    color: var(--clr-neutral-h);
+    padding-left: 3rem;
+    margin-bottom: 1.5625rem;
+  }
+  
+  .info-suvs {
+    width: 255px;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+  
+    line-height: 1.5625rem;
+    color: var(--clr-neutral-p);
+    padding-left: 2.96875rem;
+    margin-bottom: 5.1875rem;
+  }
+  
+  .more-info-suvs {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+  
+    line-height: 1.5625rem;
+    color: var(--clr-primary-cyan);
+    padding: .6875rem 1.96875rem .75rem 1.96875rem;
+  
+    background-color: var(--clr-neutral-h);
+    border-style: none;
+    border-radius: 1.5625rem;
+  
+    cursor: pointer;
+  
+    margin-left: 3rem;
+  }
+  
+  .more-info-suvs:hover {
+    background-color: var(--clr-primary-cyan);
+    color: var(--clr-neutral-h);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--clr-neutral-h);
+    padding: .6875rem 1.96875rem .75rem 1.96875rem;
+  }
+  
+  .more-info-suvs:active {
+    opacity: 0.8;
+  }
+  
+  
+  
+  .right {
+    background-color: var(--clr-primary-green);
+    width: 307px;
+    height: 500px;
+    border-radius: 0rem .5rem .5rem 0rem;
+  }
+  
+  .car-icon {
+    padding: 3rem 0rem 0rem 3rem;
+    margin-bottom: 2.1875rem;
+  }
+  
+  .car-type {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-bold);
+    font-size: 2.5rem;
+  
+    line-height: 2.9925rem;
+    color: var(--clr-neutral-h);
+    padding-left: 3rem;
+    margin-bottom: 1.5625rem;
+  }
+  
+  .info-luxury {
+    width: 260px;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+  
+    line-height: 1.5625rem;
+    color: var(--clr-neutral-p);
+    padding-left: 2.96875rem;
+    margin-bottom: 5.1875rem;
+  }
+  
+  .more-info-luxury {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+  
+    line-height: 1.5625rem;
+    color: var(--clr-primary-cyan);
+    padding: .6875rem 1.96875rem .75rem 1.96875rem;
+  
+    background-color: var(--clr-neutral-h);
+    border-style: none;
+    border-radius: 1.5625rem;
+  
+    cursor: pointer;
+  
+    margin-left: 3rem;
+  }
+  
+  .more-info-luxury:hover {
+    background-color: var(--clr-primary-green);
+    color: var(--clr-neutral-h);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--clr-neutral-h);
+    padding: .6875rem 1.96875rem .75rem 1.96875rem;
+  }
+  
+  .more-info-luxury:active {
+    opacity: 0.8;
+  }

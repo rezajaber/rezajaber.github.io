@@ -35,6 +35,7 @@ body {
     align-items: center;
 }
 
+
 @media (max-width: 1110px) {
     .container {
         max-width: 327px;
@@ -43,7 +44,7 @@ body {
         background-color: var(--clr-primary-cardbg);
         border-radius: .5rem;
     }
-    
+
     .stockphoto-desktop {
         display: none;
     }
