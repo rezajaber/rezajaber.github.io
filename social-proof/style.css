@@ -1,0 +1,148 @@
+:root {
+  --clr-primary-verydarkmagenta: #502050;
+  --clr-primary-softpink: #ee68a4;
+
+  --clr-neutral-white: #ffffff;
+  --clr-neutral-lightgrayishmagenta: #f7f2f7;
+  --clr-neutral-darkgrayishmagenta :  #937b92;
+
+  --ff-base: 'League Spartan', sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --fs-base: .9375rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  transition: 0.3s;
+}
+
+body {
+  font-family: var(--ff-base);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 327px;
+}
+
+.bgtop {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.bgbottom {
+ position: absolute;
+ bottom: 0;
+}
+
+.title {
+  font-weight: var(--fw-bold);
+  font-size: 2.5rem;
+  line-height: 2rem;
+  letter-spacing: -1.43px;
+  text-align: center;
+  color: var(--clr-primary-verydarkmagenta);
+
+  margin-top: 5.125rem;
+}
+
+.title-info {
+  font-weight: var(--fw-medium);
+  font-size: 1.1875rem;
+  line-height: 1.5625rem;
+  letter-spacing: -0.63px;
+  text-align: center;
+  color: var(--clr-neutral-darkgrayishmagenta);
+
+  margin-top: 1.0625rem;
+  margin-bottom: 2.4375rem;
+}
+
+.right {
+  margin-bottom: 2.0625rem;
+}
+
+.firstrow,
+.secondrow,
+.thirdrow {
+  height: 78px;
+  background-color: var(--clr-neutral-lightgrayishmagenta);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+
+.center-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.star-icon {
+  padding: 1rem .2rem .951875rem .2rem;
+}
+
+.review-rating {
+  font-weight: var(--fw-bold);
+  font-size: 1.0625rem;
+  line-height: .9775rem;
+  text-align: center;
+  color: var(--clr-primary-verydarkmagenta);
+}
+
+.firstcolumn,
+.secondcolumn,
+.thirdcolumn {
+  height: 248px;
+  background-color: var(--clr-primary-verydarkmagenta);
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  padding: 2.5rem 2rem 2.1875rem 2rem;
+}
+
+.profile-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.4375rem;
+}
+
+.profile-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 1.4375rem;
+}
+
+.profile-name {
+  font-weight: var(--fw-bold);
+  font-size: 1.0625rem;
+  line-height: .9775rem;
+  color: white;
+  margin-bottom: .25rem;
+}
+
+.profile-status {
+  font-weight: var(--fw-regular);
+  font-size: 1.0625rem;
+  line-height: .9775rem;
+  color: var(--clr-primary-softpink);
+}
+
+.review-info {
+  font-weight: var(--fw-medium);
+  font-size: 1.0625rem;
+  line-height: 1.375rem;
+  color: white;
+  letter-spacing: -0.3px;
+}
