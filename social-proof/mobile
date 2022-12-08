@@ -1,70 +1,29 @@
-:root {
-  --clr-primary-verydarkmagenta: #502050;
-  --clr-primary-softpink: #ee68a4;
-
-  --clr-neutral-white: #ffffff;
-  --clr-neutral-lightgrayishmagenta: #f7f2f7;
-  --clr-neutral-darkgrayishmagenta :  #937b92;
-
-  --ff-base: 'League Spartan', sans-serif;
-
-  --fw-regular: 400;
-  --fw-medium: 500;
-  --fw-bold: 700;
-
-  --fs-base: .9375rem;
+.container {
+  max-width: 327px;
 }
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  
-  transition: 0.3s;
-}
-
-body {
-  font-family: var(--ff-base);
-  padding: 7.375rem 10.3125rem 0rem 10.3125rem;
-}
-
 
 .bgtop {
-  display: none;
-}
-
-.bgtop-desktop {
   position: absolute;
   z-index: -1;
   top: 0;
-  left: 3rem;
+  width: 100%;
+  position: fixed;
 }
 
-.bgbot-desktop {
-  position: absolute;
-  z-index: -1;
-  bottom: 0;
-  right: 1rem;
-}
-
-.top {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  margin-bottom: 4.4375rem;
-}
-
-.width {
-  max-width: 445px;
+.bgbottom {
+ position: absolute;
+ bottom: 0;
 }
 
 .title {
   font-weight: var(--fw-bold);
-  font-size: 3.5rem;
-  line-height: 3rem;
-  letter-spacing: 2px;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  letter-spacing: -1.43px;
+  text-align: center;
   color: var(--clr-primary-verydarkmagenta);
 
-  margin-bottom: 1.5rem;
+  margin-top: 5.125rem;
 }
 
 .title-info {
@@ -72,69 +31,51 @@ body {
   font-size: 1.1875rem;
   line-height: 1.5625rem;
   letter-spacing: -0.63px;
+  text-align: center;
   color: var(--clr-neutral-darkgrayishmagenta);
+
+  margin-top: 1.0625rem;
+  margin-bottom: 2.4375rem;
+}
+
+.right {
+  margin-bottom: 2.0625rem;
 }
 
 .firstrow,
 .secondrow,
 .thirdrow {
-  max-width: 445px;
-  height: 56px;
-
+  height: 78px;
   background-color: var(--clr-neutral-lightgrayishmagenta);
   border-radius: .5rem;
   margin-bottom: 1rem;
-  
-  display: flex;
-  align-items: center;
-}
-
-.secondrow {
-  margin-left: 3rem;
-}
-
-.thirdrow {
-  margin-left: 5.9375rem;
 }
 
 .center-icon {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .star-icon {
-  padding-left: .2rem;
-  padding-right: .2rem;
+  padding: 1rem .2rem .951875rem .2rem;
 }
 
 .review-rating {
   font-weight: var(--fw-bold);
   font-size: 1.0625rem;
   line-height: .9775rem;
+  text-align: center;
   color: var(--clr-primary-verydarkmagenta);
-}
-
-.bot {
-  display: flex;
-  justify-content: space-between;
 }
 
 .firstcolumn,
 .secondcolumn,
 .thirdcolumn {
-  width: 350px;
-  height: 234px;
+  height: 248px;
   background-color: var(--clr-primary-verydarkmagenta);
   border-radius: .5rem;
+  margin-bottom: 1rem;
   padding: 2.5rem 2rem 2.1875rem 2rem;
-}
-
-.secondcolumn {
-  margin-top: 1rem;
-}
-
-.thirdcolumn {
-  margin-top: 2rem;
 }
 
 .profile-top {
