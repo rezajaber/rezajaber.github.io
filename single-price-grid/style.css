@@ -1,0 +1,348 @@
+:root {
+  --clr-primary-cyan: #2ab2af;
+  --clr-primary-brightyellow: #c0df34;
+
+  --clr-neutral-lightgray: #e5eff5;
+  --clr-neutral-grayishblue: #98a6bd;
+
+  --ff-base: 'Karla', sans-serif;
+
+  --fs-base: 1rem;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --content-padding: 2.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: inherit;
+}
+
+body {
+  background-color: #E6EFF5;
+  font-family: var(--ff-base);
+
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+} 
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 311px;
+    height: 722px;
+    background-color: #FFFFFF;
+    border-radius: .5rem; 
+  }
+  
+  .top {
+    padding: 1.75rem 1.5rem 2rem 1.5rem;
+  } 
+  
+  .catcher {
+    height: 267px;
+    width: 263px;
+  }
+  
+  .title {
+    font-weight: var(--fw-bold);
+    font-size: 1.5rem;
+    line-height: 1.75375rem;
+    letter-spacing: -0.3px;
+    color: var(--clr-primary-cyan);
+  
+    margin-bottom: 1.5rem;
+  }
+  
+  .guarantee {
+    font-weight: var(--fw-bold);
+    font-size: 1.125rem;
+    line-height: 1.315rem;
+    letter-spacing: -0.22px;
+    color: var(--clr-primary-brightyellow);
+  
+    margin-bottom: 1rem;
+  }
+  
+  .info {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+    line-height: 1.625rem;
+    letter-spacing: -0.20px;
+    color: #9AA7BE;
+  }
+  
+  .left {
+    background-color: var(--clr-primary-cyan);
+    padding: 1.5rem;
+    height: 228px; 
+    padding: 1.5rem;
+  }
+  
+  .plans {
+    width: 238px; 
+  }
+  
+  .plan {
+    font-weight: var(--fw-bold);
+    font-size: 1.125rem;
+    line-height: 1.315rem;
+    letter-spacing: -0.22px;
+    color: #FFFFFF;
+  
+    margin-bottom: 1.125rem;
+  }
+  
+  
+  .price {
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+    line-height: 2.338125rem;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+  
+    margin-bottom: .25rem;
+    
+  }
+  
+  .unit {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+    line-height: 1.625rem;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    
+    
+    margin-left: .25rem;
+    margin-bottom: .5625rem;  
+  }
+  
+  .price-info {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+    line-height: 1.625rem;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    margin-bottom: 1.625rem;
+  }
+  
+  .signup {
+    width: 263px;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-base);
+    line-height: 1.16875rem;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    
+    padding: .9375rem 6.375rem;
+    border-style: none;
+    background-color: var(--clr-primary-brightyellow);
+    border-radius: .3125rem;
+  
+    cursor: pointer
+  }
+  
+  .signup:hover {
+    background-color: #b1cc3a;
+  }
+  
+  .right {
+    background-color: var(--clr-primary-cyan);
+    opacity: 0.75;
+    padding: var(--content-padding);
+    height: 227px;
+    padding: 1.5rem;
+  }
+  
+  .reasons {
+    width: 238px;
+  }
+  
+  .why {
+    font-weight: var(--fw-bold);
+    font-size: 1.125rem;
+    line-height: 1.315rem;
+    letter-spacing: -0.22px;
+    color: #FFFFFF;
+  
+    margin-bottom: 1.125rem;
+  }
+  
+  .reasons-info {
+    list-style-type: none;
+    font-weight: var(--fw-regular);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.17px;
+    color: #FFFFFF;
+    opacity: .75;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 635px;
+    height: 475px;
+    background-color: #FFFFFF;
+    border-radius: .5rem; 
+  }
+  
+  .top {
+    padding: var(--content-padding);
+  }
+  
+  .catcher {
+    width: 555px;
+  }
+  
+  .title {
+    font-weight: var(--fw-bold);
+    font-size: 1.5rem;
+    line-height: 1.75375rem;
+    letter-spacing: -0.3px;
+    color: var(--clr-primary-cyan);
+  
+    margin-bottom: 1.5rem;
+  }
+  
+  .guarantee {
+    font-weight: var(--fw-bold);
+    font-size: 1.125rem;
+    line-height: 1.315rem;
+    letter-spacing: -0.22px;
+    color: var(--clr-primary-brightyellow);
+  
+    margin-bottom: .6875rem;
+  }
+  
+  .info {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+    line-height: 1.625rem;
+    letter-spacing: -0.20px;
+    color: #9AA7BE;
+  }
+  
+  .bot {
+    display: grid;
+    grid-template-columns: 317px 318px;
+  }
+  
+  .left {
+    background-color: var(--clr-primary-cyan);
+    padding: var(--content-padding);
+    height: 259px; 
+    border-radius: 0rem 0rem 0rem .5rem;
+   
+  }
+  
+  .plans {
+    width: 238px;
+    
+  }
+  
+  .plan {
+    font-weight: var(--fw-bold);
+    font-size: 1.125rem;
+    line-height: 1.315rem;
+    letter-spacing: -0.22px;
+    color: #FFFFFF;
+  
+    margin-bottom: 1.125rem;
+  }
+  
+  
+  .price {
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+    line-height: 2.338125rem;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+  
+    margin-bottom: .25rem;
+    
+  }
+  
+  .unit {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+    line-height: 1.625rem;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    
+    
+    margin-left: .25rem;
+    margin-bottom: .5625rem;
+    
+  }
+  
+  .price-info {
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-base);
+    line-height: 1.625rem;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    margin-bottom: 1.625rem;
+  }
+  
+  .signup {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-base);
+    line-height: 1.16875rem;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    
+    padding: .9375rem 5.5625rem;
+    border-style: none;
+    background-color: var(--clr-primary-brightyellow);
+    border-radius: .3125rem;
+  
+    cursor: pointer
+  }
+  
+  .signup:hover {
+    background-color: #b1cc3a;
+  }
+  
+  .right {
+    background-color: var(--clr-primary-cyan);
+    opacity: 0.75;
+    padding: var(--content-padding);
+    height: 259px;
+    border-radius: 0rem 0rem .5rem 0rem; 
+  }
+  
+  .reasons {
+    width: 238px;
+  }
+  
+  .why {
+    font-weight: var(--fw-bold);
+    font-size: 1.125rem;
+    line-height: 1.315rem;
+    letter-spacing: -0.22px;
+    color: #FFFFFF;
+  
+    margin-bottom: 1.125rem;
+  }
+  
+  .reasons-info {
+    list-style-type: none;
+    font-weight: var(--fw-regular);
+    font-size: .875rem;
+    line-height: 1.25rem;
+    letter-spacing: -0.17px;
+    color: #FFFFFF;
+    opacity: .75;
+  }
+}
+
+
+
