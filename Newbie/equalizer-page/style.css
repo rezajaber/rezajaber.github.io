@@ -600,13 +600,17 @@ body {
     .body-pattern {
         position: absolute;
         z-index: -1;
-        top: -7rem;
-        right: 25rem;
+        top: -15rem;
+        right: 10rem;
     }
-    
+
     .bg-main-mobile,
     .bg-main-tablet {
         display: none;
+    }
+
+    .bg-main-desktop {
+        height: 1875px;
     }
 
     .container {
