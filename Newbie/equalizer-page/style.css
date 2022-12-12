@@ -305,8 +305,22 @@ body {
         font-size: var(--fs-b2);
         line-height: var(--content-lh26);
         color: var(--clr-primary-darkblue);
+
+        cursor: pointer;
+    }
+
+    .mail:hover {
+        opacity: 0.8;
     }
     
+    .mail:active {
+        opacity: 0.6;
+    }
+
+    .mailto {
+        text-decoration: none;
+    }
+
     .social-media {
         width: 100px;
         height: 20px;
@@ -583,6 +597,20 @@ body {
         font-size: var(--fs-b2);
         line-height: var(--content-lh26);
         color: var(--clr-primary-darkblue);
+
+        cursor: pointer;
+    }
+
+    .mail:hover {
+        opacity: 0.8;
+    }
+    
+    .mail:active {
+        opacity: 0.6;
+    }
+
+    .mailto {
+        text-decoration: none;
     }
     
     .social-media {
@@ -849,6 +877,20 @@ body {
         font-size: var(--fs-b2);
         line-height: var(--content-lh26);
         color: var(--clr-primary-darkblue);
+
+        cursor: pointer;
+    }
+
+    .mail:hover {
+        opacity: 0.8;
+    }
+    
+    .mail:active {
+        opacity: 0.6;
+    }
+
+    .mailto {
+        text-decoration: none;
     }
     
     .social-media {
