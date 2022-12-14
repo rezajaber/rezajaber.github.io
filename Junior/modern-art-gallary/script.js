@@ -2,7 +2,6 @@ var map = L.map('map').setView([41.479736, -71.311124], 16.5);
 
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
-  attribution: '© OpenStreetMap'
 }).addTo(map);
 
 var greenIcon = L.icon({

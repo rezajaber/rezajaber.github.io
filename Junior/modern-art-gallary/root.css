@@ -1,0 +1,39 @@
+:root {
+    --clr-primary-beige: #D5966C;
+    --clr-primary-dark: #151515;
+    --clr-primary-gray: #444444;
+    --clr-primary-white: #FFFFFF;
+  
+    --ff-primary: 'Big Shoulders Display', cursive;
+    --ff-secondary: 'Outfit', sans-serif;
+  
+    --fw-light: 300;
+    --fw-extrabold: 800;
+    --fw-black: 900;
+    
+    --fs-heading-xl: 6rem;
+    --fs-heading-l: 4.375rem;
+    --fs-heading-m: 3.75rem;
+    --fs-heading-s: 2.25rem;
+    --fs-body-m: 1.375rem;
+    --fs-body-s: 1.125rem;
+  
+    --content-lh-88: 5.5rem;
+    --content-lh-70: 4.375rem;
+    --content-lh-50: 3.125rem;
+    --content-lh-36: 2.25rem;
+    --content-lh-32: 2rem;
+    --content-lh-28: 1.75rem;
+  
+    --content-button-padding: 1.5rem 2.1875rem 1.5rem 2rem;
+    --content-arrowbutton-padding: 1.5rem ;
+  }
+
+  @media (min-width: 768px) and (max-width: 1439px) {
+    :root {
+        --clr-primary-beige: #D5966C;
+        --clr-primary-dark: #151515;
+        --clr-primary-gray: #444444;
+        --clr-primary-white: #FFFFFF;
+    }
+  }
