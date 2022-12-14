@@ -6,16 +6,208 @@
   padding: 0;
   font: inherit;
 
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 body {
-
   min-height: 100vh;
   display: grid;
   place-content: center;
 }
 
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 375px;
+  
+    background-image: url("assets/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: top ;
+  }
+
+  .asia-desktop,
+  .asia-tablet,
+  .bank-desktop,
+  .bank-tablet,
+  .ausstellung-desktop,
+  .ausstellung-tablet {
+    display: none;
+  }
+
+  .header-container {
+    width: 343px;
+    height: 338px;
+    margin-top: 17rem;
+    margin-bottom: 7.5rem;
+    padding-left: 1rem;
+    
+  }
+
+  .company {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-black);
+    font-size: 3.75rem;
+    line-height: 3.4375rem;
+    color: var(--clr-primary-dark);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    opacity: 0.3;
+  }
+
+  .text {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-light);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--clr-primary-dark);
+    margin-bottom: 2rem;
+  }
+
+  .location {
+    display: flex;
+  }
+
+  .ourlocation {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-extrabold);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--clr-primary-white);
+    letter-spacing: 3.64px;
+    text-transform: uppercase;
+    
+    padding: var(--content-button-padding);
+    border-style: none;
+  
+    background-color: var(--clr-primary-dark);
+  
+    cursor: pointer;
+  }
+  
+  .ourlocation:hover  {
+    opacity: 0.8;
+  }
+  
+  .arrow {
+    padding: var(--content-arrowbutton-padding);
+    background-color: var(--clr-primary-beige);
+    cursor: pointer;
+  }
+  
+  .arrow:hover {
+    background-color: #bb7c52;
+  }
+
+  .main-container {
+    width: 343px;
+    height: 1605px;
+    margin-bottom: 7.5rem;
+    padding-left: 1rem;
+  }
+
+  .asia-mobile {
+    margin-bottom: 1.5rem;
+  }
+
+  .mc-art-gallary-info {
+    margin-bottom: 2rem;
+  }
+
+  .catchphrase {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-black);
+    font-size: 3.125rem;
+    line-height: 2.8rem;
+    color: var(--clr-primary-dark);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .catchphrase-info {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-light);
+    font-size: var(--fs-body-s);
+    line-height: var(--content-lh-28);
+    color: var(--clr-primary-gray);
+  }
+
+  .bank-mobile,
+  .ausstellung-mobile {
+    margin-bottom: 1rem;
+  }
+
+  .pictureabovecard {
+    margin-bottom: .75rem;
+  }
+
+  .cardunderpicture {
+    width: 343px;
+    height: 293px;
+    background-color: var(--clr-primary-dark);
+
+    padding: 3rem 1.5rem;
+  }
+
+  .cardtitle {
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-black);
+    font-size: 3.125rem;
+    line-height: 2.8rem;
+    color: var(--clr-primary-white);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+  }
+
+  .cardinfo {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-light);
+    font-size: var(--fs-body-s);
+    line-height: var(--content-lh-28);
+    color: var(--clr-primary-white);
+  }
+
+  footer {
+    width: 100%;
+    height: 336px;
+    background-color: var(--clr-primary-dark);
+    padding: 3rem 2rem;
+  }
+
+  .footer-container {
+    width: 311px;
+    height: 240px;
+  }
+
+  .logo {
+    width: 110px;
+    margin-bottom: 2.375rem;
+  }
+
+  .footer-middle {
+    width: 311px;
+    margin-bottom: 2.375rem;
+  }
+
+  .footer-info {
+    font-family: var(--ff-secondary);
+    font-weight: var(--fw-light);
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: var(--clr-primary-white);
+  }
+
+  .footer-right {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 20px;
+  }
+
+  .facebook-icon:hover,
+  .instagram-icon:hover,
+  .twitter-icon:hover {
+    filter: invert(69%) sepia(100%) saturate(458%) hue-rotate(330deg) brightness(88%) contrast(70%)
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1439px) { 
   .wrapper {
@@ -24,7 +216,7 @@ body {
   
     background-image: url("assets/tablet/image-hero.jpg");
     background-repeat: no-repeat;
-    background-position: top le;
+    background-position: top left;
   }
 
   header {
@@ -219,8 +411,6 @@ body {
     justify-content: space-between;
   }
 
-
-
   .facebook-icon:hover,
   .instagram-icon:hover,
   .twitter-icon:hover {
@@ -237,7 +427,6 @@ body {
     background-repeat: no-repeat;
     background-position: top;
   }
-  
   
   header {
     height: 800px;
@@ -328,11 +517,12 @@ body {
   
   main {
     padding: 0rem 10.3125rem 5rem 10.3125rem;
+    margin-bottom: 6rem;
   }
   
   .main-container {
     width: 1110px;
-    margin-bottom: 6.25rem;
+
   }
 
   .asia-tablet,
@@ -421,9 +611,7 @@ body {
   .footer-container {
     width: 1110px;
     height: 84px;
-  
-    
-  
+ 
     display: grid;
     grid-template-columns: 300px 710px 100px;
   }
@@ -449,8 +637,6 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  
-  
   
   .facebook-icon:hover,
   .instagram-icon:hover,
