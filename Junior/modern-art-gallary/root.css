@@ -29,11 +29,4 @@
     --content-arrowbutton-padding: 1.5rem ;
   }
 
-  @media (min-width: 768px) and (max-width: 1439px) {
-    :root {
-        --clr-primary-beige: #D5966C;
-        --clr-primary-dark: #151515;
-        --clr-primary-gray: #444444;
-        --clr-primary-white: #FFFFFF;
-    }
-  }
+  
